@@ -1,5 +1,5 @@
-# powercli
+# powerCLI
 
-POWERcli is a CLI system for AVR-based devices.
+powerCLI is a CLI system for AVR-based devices.
 
 _Tested on Arduino Nano._
