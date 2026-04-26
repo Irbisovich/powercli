@@ -1,12 +1,12 @@
 String command = "";
 String logins[][6] = {{"guest", "NULL", "0"}, {"admin", "1234", "1"}};
-String info[][2] =  {{"name", "POWERcli"}, {"release date", "11-01-2026"}, {"version", "Alpha, v1.0.0"}, {"mode", "unknown"}};
+String info[][2] =  {{"name", "powerCLI"}, {"release date", "11-01-2026"}, {"version", "Alpha, v1.0.0"}, {"mode", "unknown"}};
 String curr_user = "not logined";
 
 void setup() {
   Serial.begin(9600);
 
-  Serial.print("POWERcli v1.0 (11.01.2026)\n\rUnknown mode. Print help to list all commands\n\r");
+  Serial.print("powerCLI v1-alpha-0 (for Malachite)\n\rType HELP to list all commands\n\r");
   Serial.print("\n\r (" + curr_user + ") > ");
 }
 
